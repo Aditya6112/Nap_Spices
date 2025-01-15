@@ -1,15 +1,15 @@
 const Plain = () => {
   const spices100g = [
-      { name: 'Haldi', weight: '100g', image: '/images/pro16.jpg' },
-      { name: 'Mirchi Powder', weight: '100g', image: '/images/pro17.jpg' },
-      { name: 'Dhaniya', weight: '100g', image: '/images/pro18.jpg' },
-      { name: 'Pure Garam Masala', weight: '100g', image: '/images/pro19.jpg' },
-      { name: 'Jeera', weight: '100g', image: '/images/pro20.jpg' },
+      { name: 'Haldi', weight: '100g', image: '/images/pro15.jpg' },
+      { name: 'Mirchi Powder', weight: '100g', image: '/images/pro21.jpg' },
+      { name: 'Dhaniya', weight: '100g', image: '/images/pro11.jpg' },
+      { name: 'Pure Garam Masala', weight: '100g', image: '/images/pro14.jpg' },
+      { name: 'Jeera', weight: '100g', image: '/images/pro16.jpg' },
   ];
 
   const smallSpices = [
-      { name: 'Kaali Mirch Powder', weight: '15g', image: '/images/pro21.jpg' },
-      { name: 'Elaichi Powder', weight: '10g', image: '/images/pro22.jpg' },
+      { name: 'Kaali Mirch Powder', weight: '15g', image: '/images/pro18.jpg' },
+      { name: 'Elaichi Powder', weight: '10g', image: '/images/pro13.jpg' },
   ];
 
   return (
@@ -28,7 +28,6 @@ const Plain = () => {
 
               {/* 100gms Packing Section */}
               <div className="mt-10">
-                  <h3 className="text-2xl font-bold text-gray-100">100gms Packing</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
                       {spices100g.map((spice, index) => (
                           <div
@@ -59,7 +58,7 @@ const Plain = () => {
               </div>
 
               {/* Smaller Packing Section */}
-              <div className="mt-12">
+              <div className="mt-10">
               <h2 id="smaller" className="text-3xl font-bold text-center text-white bg-red-500 py-2 rounded-md">
                   Smaller Packaging
               </h2>

@@ -1,20 +1,20 @@
 const Processed = () => {
   const spices = [
-    { name: 'Shahi Paneer Masala', weight: '10g', image: '/images/pro1.jpg' },
-    { name: 'Matar Paneer Masala', weight: '10g', image: '/images/pro2.jpg' },
+    { name: 'Shahi Paneer Masala', weight: '10g', image: '/images/pro2.jpg' },
+    { name: 'Matar Paneer Masala', weight: '10g', image: '/images/pro19.jpg' },
     { name: 'Soya Chaap Masala', weight: '10g', image: '/images/pro3.jpg' },
-    { name: 'Chai Masala', weight: '10g', image: '/images/pro4.jpg' },
-    { name: 'Kadhi Masala', weight: '10g', image: '/images/pro5.jpg' },
-    { name: 'Garam Masala', weight: '10g', image: '/images/pro6.jpg' },
-    { name: 'Chana Masala', weight: '10g', image: '/images/pro7.jpg' },
+    { name: 'Chai Masala', weight: '10g', image: '/images/pro5.jpg' },
+    { name: 'Kadhi Masala', weight: '10g', image: '/images/pro17.jpg' },
+    { name: 'Garam Masala', weight: '10g', image: '/images/pro14.jpg' },
+    { name: 'Chana Masala', weight: '10g', image: '/images/pro6.jpg' },
     { name: 'Pav Bhaji Masala', weight: '10g', image: '/images/pro8.jpg' },
     { name: 'Daal Madhni/Rajma Masala', weight: '10g', image: '/images/pro9.jpg' },
-    { name: 'Chaat Masala', weight: '10g', image: '/images/pro10.jpg' },
-    { name: 'Sambhar Masala', weight: '15g', image: '/images/pro11.jpg' },
-    { name: 'Chicken Masala', weight: '10g', image: '/images/pro12.jpg' },
-    { name: 'Meat Masala', weight: '15g', image: '/images/pro13.jpg' },
+    { name: 'Chaat Masala', weight: '10g', image: '/images/pro4.jpg' },
+    { name: 'Sambhar Masala', weight: '15g', image: '/images/pro1.jpg' },
+    { name: 'Chicken Masala', weight: '10g', image: '/images/pro7.jpg' },
+    { name: 'Meat Masala', weight: '15g', image: '/images/pro20.jpg' },
     { name: 'Kaccha Paneer Masala', weight: '15g', image: '/images/pro14.jpg' },
-    { name: 'Dam Aaloo Masala', weight: '10g', image: '/images/pro15.jpg' },
+    { name: 'Dam Aaloo Masala', weight: '10g', image: '/images/pro10.jpg' },
   ];
 
   return (
@@ -29,7 +29,7 @@ const Processed = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-white text-center bg-red-500 py-2 rounded-md">
-          PROCESSED SPICES
+          Processed Spices
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
           {spices.map((spice, index) => (
