@@ -14,7 +14,6 @@ const Plain = () => {
 
   return (
       <section
-          id="plain"
           className="py-12"
           style={{
               backgroundImage: "url('/images/bg5.jpg')",
@@ -23,7 +22,7 @@ const Plain = () => {
           }}
       >
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-              <h2 className="text-3xl font-bold text-center text-white bg-red-500 py-2 rounded-md">
+              <h2 id="plain" className="text-3xl font-bold text-center text-white bg-red-500 py-2 rounded-md">
                   Plain Spices
               </h2>
 
@@ -61,7 +60,7 @@ const Plain = () => {
 
               {/* Smaller Packing Section */}
               <div className="mt-12">
-              <h2 className="text-3xl font-bold text-center text-white bg-red-500 py-2 rounded-md">
+              <h2 id="smaller" className="text-3xl font-bold text-center text-white bg-red-500 py-2 rounded-md">
                   Smaller Packaging
               </h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">

@@ -20,8 +20,8 @@ import { ChevronDownIcon, PhoneIcon } from '@heroicons/react/20/solid';
 
 const products = [
   { name: 'Processed Spices', description: '10gm-15gm pack', href: '#processed', image: '/images/pro9.jpg' },
-  { name: 'Plain Spices', description: '10gm-15gm pack', href: '#plain', image: '/images/pro9.jpg' },
-  { name: 'Plain Spices', description: '100gm', href: '#plain', image: '/images/pro15.jpg' },
+  { name: 'Plain Spices', description: '10gm-15gm pack', href: '#smaller', image: '/images/pro9.jpg' },
+  { name: 'Plain Spices', description: '100gm pack', href: '#plain', image: '/images/pro15.jpg' },
 ];
 
 const callsToAction = [
@@ -30,7 +30,7 @@ const callsToAction = [
       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 8.25l-9.75 7.5-9.75-7.5M3.375 7.5l7.313 5.625L21.375 7.5M3.375 6H20.625c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125H3.375A1.125 1.125 0 012.25 16.875v-9.75C2.25 6.504 2.754 6 3.375 6z" />
     </svg>
   },
-  { name: 'Contact Sales', href: 'tel:+48690004765', icon: PhoneIcon },
+  { name: 'Contact Sales', href: 'tel:+919212986744', icon: PhoneIcon },
 ];
 
 export default function Header() {
@@ -58,7 +58,7 @@ export default function Header() {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-lg font-semibold text-gray-900 hover:underline transition duration-300">
-              Product
+              Categories
               <ChevronDownIcon aria-hidden="true" className="w-6 h-6 text-gray-400" />
             </PopoverButton>
 
