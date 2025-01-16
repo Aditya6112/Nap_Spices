@@ -154,7 +154,7 @@ export default function Header() {
                   href="#mission"
                   className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-900 hover:underline transition duration-300"
                 >
-                  Features
+                  Our Mission
                 </a>
                 <a
                   href="#distribution"
