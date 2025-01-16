@@ -29,7 +29,7 @@ const Processed = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-white text-center bg-red-500 py-2 rounded-md">
-          Processed Spices
+          Processed Spices 10-15g
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
           {spices.map((spice, index) => (
