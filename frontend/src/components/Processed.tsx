@@ -7,13 +7,13 @@ const Processed = () => {
     { name: 'Kadhi Masala', weight: '10g', image: '/images/pro17.jpg' },
     { name: 'Garam Masala', weight: '10g', image: '/images/pro14.jpg' },
     { name: 'Chana Masala', weight: '10g', image: '/images/pro6.jpg' },
-    { name: 'Pav Bhaji Masala', weight: '10g', image: '/images/pro8.jpg' },
-    { name: 'Daal Madhni/Rajma Masala', weight: '10g', image: '/images/pro9.jpg' },
+    { name: 'Pav Bhaji Masala', weight: '10g', image: '/images/pro25.jpg' },
+    { name: 'Daal Makhni/Rajma Masala', weight: '10g', image: '/images/pro24.jpg' },
     { name: 'Chaat Masala', weight: '10g', image: '/images/pro4.jpg' },
     { name: 'Sambhar Masala', weight: '15g', image: '/images/pro1.jpg' },
     { name: 'Chicken Masala', weight: '10g', image: '/images/pro7.jpg' },
     { name: 'Meat Masala', weight: '15g', image: '/images/pro20.jpg' },
-    { name: 'Kaccha Paneer Masala', weight: '15g', image: '/images/pro14.jpg' },
+    { name: 'Kaccha Paneer Masala', weight: '15g', image: '/images/pro2.jpg' },
     { name: 'Dam Aaloo Masala', weight: '10g', image: '/images/pro10.jpg' },
   ];
 

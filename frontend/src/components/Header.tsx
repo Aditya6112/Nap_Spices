@@ -19,9 +19,9 @@ import {
 import { ChevronDownIcon, PhoneIcon } from '@heroicons/react/20/solid';
 
 const products = [
-  { name: 'Processed Spices', description: '10gm-15gm pack', href: '#processed', image: '/images/pro9.jpg' },
-  { name: 'Plain Spices', description: '10gm-15gm pack', href: '#smaller', image: '/images/pro9.jpg' },
-  { name: 'Plain Spices', description: '100gm pack', href: '#plain', image: '/images/pro15.jpg' },
+  { name: 'Processed Spices', description: '10gm-15gm pack', href: '#processed', image: '/images/pro2.jpg' },
+  { name: 'Plain Spices', description: '100gm pack', href: '#plain', image: '/images/pro13.jpg' },
+  { name: 'Plain Spices', description: '10gm-15gm pack', href: '#smaller', image: '/images/pro15.jpg' },
 ];
 
 const callsToAction = [
