@@ -134,11 +134,11 @@ export default function Header() {
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-lg font-semibold text-gray-900 hover:underline transition duration-300">
-                    Product
+                    Categories
                     <ChevronDownIcon aria-hidden="true" className="w-6 h-6 group-data-[open]:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products, ...callsToAction].map((item) => (
+                    {[...products].map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
@@ -164,6 +164,20 @@ export default function Header() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-900 hover:underline transition duration-300"
                 >
                   Become a Distributor/Stockist
+                </a>
+                <a
+                  href="mailto:contact@napspices.com"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-900 hover:underline transition duration-300"
+                >
+                  Email Sales
+                </a>
+                <a
+                  href="tel:+919212986744"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-900 hover:underline transition duration-300"
+                >
+                  Contact Sales
                 </a>
               </div>
             </div>
