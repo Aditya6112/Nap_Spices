@@ -13,7 +13,7 @@ const Processed = () => {
     { name: 'Sambhar Masala', weight: '15g', image: '/images/pro1.jpg' },
     { name: 'Chicken Masala', weight: '10g', image: '/images/pro7.jpg' },
     { name: 'Meat Masala', weight: '15g', image: '/images/pro20.jpg' },
-    { name: 'Kaccha Paneer Masala', weight: '15g', image: '/images/pro2.jpg' },
+    { name: 'Kaccha Paneer Masala', weight: '15g', image: '/images/pro26.jpg' },
     { name: 'Dam Aaloo Masala', weight: '10g', image: '/images/pro10.jpg' },
   ];
 
