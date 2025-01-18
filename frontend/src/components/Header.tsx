@@ -143,6 +143,7 @@ export default function Header() {
                         key={item.name}
                         as="a"
                         href={item.href}
+                        onClick={() => setMobileMenuOpen(false)}
                         className="block rounded-lg py-2 pl-6 pr-3 text-lg font-semibold text-gray-900 hover:underline transition duration-300"
                       >
                         {item.name}
@@ -152,12 +153,14 @@ export default function Header() {
                 </Disclosure>
                 <a
                   href="#mission"
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-900 hover:underline transition duration-300"
                 >
                   Our Mission
                 </a>
                 <a
                   href="#distribution"
+                  onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-900 hover:underline transition duration-300"
                 >
                   Become a Distributor/Stockist
